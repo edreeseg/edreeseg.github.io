@@ -1,6 +1,5 @@
 * {
     color: #3C373B;
-	overflow-y: scroll;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,6 +7,7 @@
 }
   
 body {
+	overflow-y: scroll;
     background: #f8f8f8;
 	overflow-x: hidden;
 }
