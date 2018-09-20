@@ -113,8 +113,6 @@ img:hover {
 
 footer {
 	font-family: 'Robot', sans-serif;
-	position: absolute;
-	bottom: 0;
     width: 100%;
     background: #F87B99;
     border-top: 1px solid black;
