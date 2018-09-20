@@ -1,43 +1,4 @@
-* {
-    color: #3C373B;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body{
-    background: #f8f8f8;
-  }
-  h1 {
-    font-weight: 300;
-    margin: 20px 0;
-    font-size: 60px;
-    text-align: center;
-    background: pink;
-    border: 1px solid black;
-    cursor: pointer;
-    user-select: none;
-  }
-  h1:hover{
-    color: rgba(60,55,59,0.6);
-  }
-  h2, h3, h4, h5, h6 {
-    font-family: 'Oswald', sans-serif;
-    margin-bottom: 0;
-    padding: 0 10px;
-    font-size: 30px;
-    user-select: none;
-    cursor: pointer;
-  }
-  h2:hover {
-    color: rgba(60,55,59,0.6);
-  }
-  p {
-  font-size: 16px;
-  font-family: roboto;
-  padding: 10px;
-  line-height: 1.4;
-  }
-  .image-holder {
+.image-holder {
       position: relative;
       width: 100%;
   }
@@ -49,63 +10,9 @@
       user-select: none;
   }
   img {
-    border: 1px solid black;
-    border-radius: 10px;
     width: 100%;
   }
-  img:hover {
-    -webkit-filter: grayscale(60%);
-      filter: grayscale(60%);
-  }
-  .container {
-    font-family: 'Roboto', sans-serif;
-    width: 600px;
-    margin: 0 auto;
-  }
-  .container header nav {
-    height: 500px;
-    position: fixed;
-    left: 0;
-    padding: 10px;
-    background: pink;
-    border: 1px solid black;
-    display: flex;
-    flex-direction: column;
-    animation: open 0.7s forwards paused;
-  }
-  .container header nav:hover {
-    animation-play-state: running;
-  }
-  @keyframes open {
-    0% {
-        top: -450px;
-        justify-content: flex-start;
-        padding: 0 20px;
-    }
-    20% {
-        justify-content: space-around;
-    }
-    100% {
-        top: 0px;
-        padding: 20px;
-        justify-content: space-around;
-    }
-  }
-  .container header nav a {
-    margin: 0 10px;
-    border: 0.5px solid black;
-    padding: inherit;
-    display: inline-block;
-    border-radius: 20px;
-    color: #f8f8f8;
-    text-decoration: none;
-    text-align: center;
-    margin-bottom: 20px;
-    background: #F87B99;
-  }
-  .container header nav a:hover {
-    background: rgba(248,123,153,0.7);
-  }
+  
 #contact-form {
     background-color: darkgray;
     margin: 10px 0;
@@ -142,45 +49,3 @@ textarea {
     width: 100%;
     margin-bottom: 5px;
 }
-  footer {
-    font-family: 'Roboto', sans-serif;
-    width: 100%;
-    background: #F87B99;
-    border-top: 1px solid black;
-  }
-  
-  footer .footer-content { 
-    margin: 0 auto; 
-    width: 600px;
-  }
-  
-  footer .footer-content h3 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    padding: 0;
-    margin: 20px 0;
-  }
-  
-  footer nav {
-    display: flex;
-  }
-  
-  footer a {
-    margin: 10px;
-    color: black;
-    text-decoration: underline;
-  }
-  
-  
-  footer nav a:first-child {
-    margin-left: 0;
-  }
-  
-  footer nav a:hover {
-    color: white;
-  }
-  
-  footer .footer-content .copyright {
-    padding: 20px 0;
-    text-align: center;
-  }
