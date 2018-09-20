@@ -5,7 +5,6 @@
     box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
 }
-  
 body {
 	overflow-y: scroll;
     background: #f8f8f8;
@@ -58,9 +57,12 @@ img:hover {
 }
 
 .container {
+	position: relative;
+	min-height: 100vh;
     font-family: 'Roboto', sans-serif;
-    width: 600px;
+    width: 38%;
     margin: 0 auto;
+	padding-bottom: 179px;
 }
 
 .container header nav {
@@ -112,9 +114,13 @@ img:hover {
     background: rgba(248,123,153,0.7);
 }
 
-footer {
+footer { 
+	position: absolute;
+	bottom: 0;
+	left: -31vw;
+	height: 179px;
 	font-family: 'Robot', sans-serif;
-    width: 100%;
+    width: 100vw;
     background: #F87B99;
     border-top: 1px solid black;
 }
