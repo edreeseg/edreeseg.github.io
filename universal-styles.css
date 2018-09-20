@@ -58,7 +58,6 @@ img:hover {
 
 .container {
 	position: relative;
-	min-height: 100vh;
     font-family: 'Roboto', sans-serif;
     width: 38%;
     margin: 0 auto;

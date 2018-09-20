@@ -2,14 +2,14 @@
       position: relative;
       width: 100%;
   }
-  .caption {
+.caption {
       position: absolute;
       top: 41%;
       width: 100%;
       text-align: center;
       user-select: none;
   }
-  img {
+img {
     width: 100%;
   }
   
